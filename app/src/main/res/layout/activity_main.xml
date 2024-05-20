@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.mst.basics.slide.widget.v2.GlassButton
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:sign="1"
+            android:layout_marginStart="@dimen/dp_10"
+            android:text="INSTALL PLUGIN" />
+
+        <com.mst.basics.slide.widget.v2.GlassButton
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:sign="2"
+            android:layout_marginStart="@dimen/dp_10"
+            android:text="LOAD PLUGIN" />
+
+        <com.mst.basics.slide.widget.v2.GlassButton
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:sign="3"
+            android:layout_marginStart="@dimen/dp_10"
+            android:text="UNINSTALL PLUGIN" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>
